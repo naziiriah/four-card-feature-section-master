@@ -1,0 +1,77 @@
+.container {
+  margin-top: 0px;
+  padding: 30px;
+}
+
+.portofolio {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25%;
+      grid-template-columns: 25% 25% 25%;
+  grid-gap: 2em;
+  margin-left: 10%;
+}
+
+.portofolio .cardist {
+  border: 1px solid white;
+  -webkit-box-shadow: 2px 5px 8px 2px #888888;
+          box-shadow: 2px 5px 8px 2px #888888;
+  padding: 15px;
+}
+
+.portofolio .cardist .mini-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-row-align: end;
+      align-self: end;
+}
+
+.portofolio .card1 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  grid-row: 2/4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border-top: 5px solid #45d3d3;
+  border-radius: 3%;
+}
+
+.portofolio .card2 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  border-top: 5px solid #ea5353;
+  border-radius: 3%;
+}
+
+.portofolio .card3 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 3;
+  grid-row: 3;
+  border-top: 5px solid #fcaf4a;
+  border-radius: 3%;
+}
+
+.portofolio .card4 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  grid-row: 2/4;
+  -ms-grid-column: 3;
+  grid-column: 3;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border-top: 5px solid #549ef2;
+  border-radius: 3%;
+}
+/*# sourceMappingURL=style.css.map */
